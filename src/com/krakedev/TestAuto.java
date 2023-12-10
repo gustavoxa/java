@@ -4,8 +4,8 @@ public class TestAuto {
 
 	public static void main(String[] args) {
 		// Metodos del auto
-		Auto auto1= new Auto();
-		Auto auto2= new Auto();
+		Auto auto1= new Auto("Hyundai",2020,1400.50);
+		Auto auto2= new Auto("Chevrolet",2021,20000);
 		System.out.println("-------------------");
 		System.out.println("Caracteristicas inciales del primer auto");
 		System.out.println("Marca: "+auto1.getMarca());

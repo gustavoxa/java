@@ -4,7 +4,7 @@ public class TestRectangulo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Rectangulo r1=new Rectangulo();
+		Rectangulo r1=new Rectangulo(4,2);
 		double perimetro;
 		r1.setAltura(4);
 		r1.setBase(2);
